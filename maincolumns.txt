@@ -1,0 +1,239 @@
+####Donor's Characteristics####
+    TCODE - Donor title code
+    DOB - Date of birth
+    GENDER
+    AGE (New Column)
+    
+    INCOME - HOUSEHOLD INCOME
+
+    CONTROLN - Control number (unique record identifier)
+-----------------------------------------
+
+####Donor's Interests
+    COLLECT1                    COLLECTABLE (Y/N)
+    VETERANS                    VETERANS (Y/N)
+    BIBLE                       BIBLE READING (Y/N)
+    CATLG                       SHOP BY CATALOG (Y/N)
+    HOMEE                       WORK FROM HOME (Y/N)
+    PETS                        HOUSEHOLD PETS (Y/N)
+    CDPLAY                      CD PLAYER OWNERS (Y/N)
+    STEREO                      STEREO/RECORDS/TAPES/CD (Y/N)
+    PCOWNERS                    HOME PC OWNERS/USERS
+    PHOTO                       PHOTOGRAPHY (Y/N)
+    CRAFTS                      CRAFTS (Y/N)
+    FISHER                      FISHING (Y/N)
+    GARDENIN                    GARDENING (Y/N)
+    BOATS                       POWER BOATING (Y/N)
+    WALKER                      WALK FOR HEALTH (Y/N)
+    KIDSTUFF                    BUYS CHILDREN'S PRODUCTS (Y/N)
+    CARDS                       STATIONARY/CARDS BUYER (Y/N)
+    PLATES                      PLATE COLLECTOR (Y/N)
+-----------------------------------------
+
+####Donor Neighborhood#######
+    STATE - State abbreviation
+    ZIP - Zipcode
+    
+    GEOCODE - Location of Census Data
+    GEOCODE2 - County Size Code
+
+    WEALTH1 - Wealth Rating
+
+    POP901 - Number of Persons
+    POP902 - Number of Families
+    POP903 - Number of Households
+    POP90C1 - Percent Population in Urbanized Area
+    POP90C2 - Percent Population Outside Urbanized Area
+
+    POP90C4 - Percent Male
+    POP90C5 - Percent Female
+
+    ETH1 - Percent White
+    ETH2 - Percent Black
+    ETH3 - Percent Native American
+    ETASIAN - Percentage of Asians
+    ETHISPANIC - Percentage of Latin Americans (Mexican,Puerto Rican,,Hispanic,Cuban,Other Hispanic)
+
+    AGE901 - Median Age of Population
+    AGE904 - Average Age of Population
+
+    AGE907 - Percent Children Population
+    AGEADULTS - Percent Adult Population
+
+    MARR1 - Percent Married
+    MARR2 - Percent Separated or Divorced
+    MARR3 - Percent Widowed
+    MARR4 - Percent Never Married (Singles)
+
+    HV1 - Median Home Value in hundreds
+    HV2 - Average Home Value in hundreds
+    HV3 - Median Contract Rent in hundreds
+    HV4 - Average Contract Rent in hundreds
+
+    IC1 - Median Household Income in hundreds
+    IC2 - Median Family Income in hundreds
+    IC3 - Average Household Income in hundreds
+    IC4 - Average Family Income in hundreds
+
+    IC5 - Per Capita Income
+    EIC - Percent Employed
+
+    ######## Combine this 3 columns in categorical####
+    LOCALGOV - % Employed by Local Gov
+    STATEGOV - % Employed by State Gov
+    FEDGOV - % Employed by Fed Gov
+    ##################################################
+
+    MALEMILI - Males active in the Military
+    MALEVET - Males Veterans
+
+    ######## Combine this 2 columns in categorical####
+    VIETVETS - Vietnam Vets
+    WWIIVETS - WWII Vets
+    ##################################################
+-----------------------------------------------
+
+#####Promotions#######
+
+    ADATE_2                     Date the 97NK promotion was mailed
+    ADATE_3                     Date the 96NK promotion was mailed
+    ADATE_4                     Date the 96TK promotion was mailed
+    ADATE_5                     Date the 96SK promotion was mailed
+    ADATE_6                     Date the 96LL promotion was mailed
+    ADATE_7                     Date the 96G1 promotion was mailed
+    ADATE_8                     Date the 96GK promotion was mailed
+    ADATE_9                     Date the 96CC promotion was mailed
+    ADATE_10                    Date the 96WL promotion was mailed
+    ADATE_11                    Date the 96X1 promotion was mailed
+    ADATE_12                    Date the 96XK promotion was mailed
+    ADATE_13                    Date the 95FS promotion was mailed
+    ADATE_14                    Date the 95NK promotion was mailed
+    ADATE_15                    Date the 95TK promotion was mailed
+    ADATE_16                    Date the 95LL promotion was mailed
+    ADATE_17                    Date the 95G1 promotion was mailed
+    ADATE_18                    Date the 95GK promotion was mailed
+    ADATE_19                    Date the 95CC promotion was mailed
+    ADATE_20                    Date the 95WL promotion was mailed
+    ADATE_21                    Date the 95X1 promotion was mailed
+    ADATE_22                    Date the 95XK promotion was mailed
+    ADATE_23                    Date the 94FS promotion was mailed
+    ADATE_24                    Date the 94NK promotion was mailed
+
+    RFA_2                       Donor's RFA status as of 97NK promotion date
+    RFA_3                       Donor's RFA status as of 96NK promotion date
+    RFA_4                       Donor's RFA status as of 96TK promotion date
+    RFA_5                       Donor's RFA status as of 96SK promotion date
+    RFA_6                       Donor's RFA status as of 96LL promotion date
+    RFA_7                       Donor's RFA status as of 96G1 promotion date
+    RFA_8                       Donor's RFA status as of 96GK promotion date
+    RFA_9                       Donor's RFA status as of 96CC promotion date
+    RFA_10                      Donor's RFA status as of 96WL promotion date
+    RFA_11                      Donor's RFA status as of 96X1 promotion date
+    RFA_12                      Donor's RFA status as of 96XK promotion date
+    RFA_13                      Donor's RFA status as of 95FS promotion date
+    RFA_14                      Donor's RFA status as of 95NK promotion date
+    RFA_15                      Donor's RFA status as of 95TK promotion date
+    RFA_16                      Donor's RFA status as of 95LL promotion date
+    RFA_17                      Donor's RFA status as of 95G1 promotion date
+    RFA_18                      Donor's RFA status as of 95GK promotion date
+    RFA_19                      Donor's RFA status as of 95CC promotion date
+    RFA_20                      Donor's RFA status as of 95WL promotion date
+    RFA_21                      Donor's RFA status as of 95X1 promotion date
+    RFA_22                      Donor's RFA status as of 95XK promotion date
+    RFA_23                      Donor's RFA status as of 94FS promotion date
+    RFA_24                      Donor's RFA status as of 94NK promotion date
+
+    RDATE_3                     Date the gift was received for 96NK
+    RDATE_4                     Date the gift was received for 96TK
+    RDATE_5                     Date the gift was received for 96SK
+    RDATE_6                     Date the gift was received for 96LL
+    RDATE_7                     Date the gift was received for 96G1
+    RDATE_8                     Date the gift was received for 96GK
+    RDATE_9                     Date the gift was received for 96CC
+    RDATE_10                    Date the gift was received for 96WL
+    RDATE_11                    Date the gift was received for 96X1
+    RDATE_12                    Date the gift was received for 96XK
+    RDATE_13                    Date the gift was received for 95FS
+    RDATE_14                    Date the gift was received for 95NK
+    RDATE_15                    Date the gift was received for 95TK
+    RDATE_16                    Date the gift was received for 95LL
+    RDATE_17                    Date the gift was received for 95G1
+    RDATE_18                    Date the gift was received for 95GK
+    RDATE_19                    Date the gift was received for 95CC
+    RDATE_20                    Date the gift was received for 95WL
+    RDATE_21                    Date the gift was received for 95X1
+    RDATE_22                    Date the gift was received for 95XK
+    RDATE_23                    Date the gift was received for 94FS
+    RDATE_24                    Date the gift was received for 94NK
+
+    RAMNT_3                     Dollar amount of the gift for 96NK
+    RAMNT_4                     Dollar amount of the gift for 96TK
+    RAMNT_5                     Dollar amount of the gift for 96SK
+    RAMNT_6                     Dollar amount of the gift for 96LL
+    RAMNT_7                     Dollar amount of the gift for 96G1
+    RAMNT_8                     Dollar amount of the gift for 96GK
+    RAMNT_9                     Dollar amount of the gift for 96CC
+    RAMNT_10                    Dollar amount of the gift for 96WL
+    RAMNT_11                    Dollar amount of the gift for 96X1
+    RAMNT_12                    Dollar amount of the gift for 96XK
+    RAMNT_13                    Dollar amount of the gift for 95FS
+    RAMNT_14                    Dollar amount of the gift for 95NK
+    RAMNT_15                    Dollar amount of the gift for 95TK
+    RAMNT_16                    Dollar amount of the gift for 95LL
+    RAMNT_17                    Dollar amount of the gift for 95G1
+    RAMNT_18                    Dollar amount of the gift for 95GK
+    RAMNT_19                    Dollar amount of the gift for 95CC
+    RAMNT_20                    Dollar amount of the gift for 95WL
+    RAMNT_21                    Dollar amount of the gift for 95X1
+    RAMNT_22                    Dollar amount of the gift for 95XK
+    RAMNT_23                    Dollar amount of the gift for 94FS
+    RAMNT_24                    Dollar amount of the gift for 94NK
+
+
+
+    CARDPROM - Lifetime number of card promotions received to date
+    MAXADATE - Date of the most recent promotion received
+-----------------------------------------------
+
+#####GIFTS#############
+    ODATEDW - Date of donor's first gift
+    RAMNTALL - Dollar amount of lifetime gifts to date
+    NGIFTALL - Number of lifetime gifts to date
+    CARDGIFT - Number of lifetime gifts to card promotions to date
+    LASTGIFT - Dollar amount of most recent gift
+    LASTDATE - Date associated with the most recent gift
+    FISTDATE - Date of first gift
+    AVGGIFT - Average dollar amount of gifts to date
+-----------------------------------------------
+
+#####Donors##############
+    RFA_2R - Recency code for RFA_2
+    RFA_2F - Frequency code for RFA_2
+    RFA_2A - Donation Amount code for RFA_2
+
+    MDMAUD_R - Recency code for MDMAUD
+    MDMAUD_F - Frequecy code for MDMAUD
+    MDMAUD_A - Donation Amount code for MDMAUD
+    MDMAUD - The Major Donor Matrix code
+------------------------------------------------
+
+
+10. NOEXCH (We need to clean this column)
+
+######## Combine this 3 columns in categorical####
+11. RECINHSE
+    RECPGVG - Planned Giving File Flag
+    RECSWEEP - Sweepstakes file flag
+##################################################
+
+13. DOMAIN - DOMAIN/Cluster code (Assign Numbers instead of letters)
+14. HOMEOWNR - Home Owner Flag (Assign Numbers instead of letters)
+
+19. HIT - total number of known times the donor has responded to a mail order offer other than PVA's
+20. DATASRCE - Source of Overlay Data
+
+28. SOLP3 - SOLICIT LIMITATION CODE P3
+29. SOLIH - SOLICITATION LIMIT CODE IN HOUSE
+30. MAJOR - Major ($$) Donor Flag
+
+2. OSOURCE - Origin Source
