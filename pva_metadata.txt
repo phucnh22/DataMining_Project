@@ -160,7 +160,7 @@ MDMAUD                      The Major Donor Matrix code
                             The (current) concatenated version is a nominal
                             or symbolic field. The individual bytes could separately be
                             used as fields and refer to the following:
-
+ 
                             First byte: Recency of Giving
                               C=Current Donor
                               L=Lapsed Donor
