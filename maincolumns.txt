@@ -7,6 +7,9 @@
     INCOME - HOUSEHOLD INCOME
 
     CONTROLN - Control number (unique record identifier)
+
+    STATE - State abbreviation
+    ZIP - Zipcode
 -----------------------------------------
 
 ####Donor's Interests
@@ -31,8 +34,6 @@
 -----------------------------------------
 
 ####Donor Neighborhood#######
-    STATE - State abbreviation
-    ZIP - Zipcode
     
     GEOCODE - Location of Census Data
     GEOCODE2 - County Size Code
@@ -40,35 +41,41 @@
     WEALTH1 - Wealth Rating
 
     POP901 - Number of Persons
-    POP902 - Number of Families
-    POP903 - Number of Households
     POP90C1 - Percent Population in Urbanized Area
     POP90C2 - Percent Population Outside Urbanized Area
-
+    POP90C3 - Percent Population Inside Rural Area
     POP90C4 - Percent Male
     POP90C5 - Percent Female
 
     ETH1 - Percent White
     ETH2 - Percent Black
     ETH3 - Percent Native American
-    ETASIAN - Percentage of Asians
-    ETHISPANIC - Percentage of Latin Americans (Mexican,Puerto Rican,,Hispanic,Cuban,Other Hispanic)
+    ETH4 - Percent Pacific Islander/Asian
+    ETH5 - Percent Hispanic
+    ETH6 - Percent Asian Indian
 
-    AGE901 - Median Age of Population
     AGE904 - Average Age of Population
-
-    AGE907 - Percent Children Population
-    AGEADULTS - Percent Adult Population
+    AGE907 - Percent Population Under Age 18
 
     MARR1 - Percent Married
     MARR2 - Percent Separated or Divorced
     MARR3 - Percent Widowed
     MARR4 - Percent Never Married (Singles)
 
-    HV1 - Median Home Value in hundreds
     HV2 - Average Home Value in hundreds
-    HV3 - Median Contract Rent in hundreds
-    HV4 - Average Contract Rent in hundreds
+
+    HU1 - Percent Owner Occupied Housing Units
+    HU2 - Percent Renter Occupied Housing Units
+    HU3 - Percent Occupied Housing Units
+    HU4 - Percent Vacant Housing Units
+    HU5 - Percent Seasonal/Recreational Vacant Units
+
+    HHD1 - Percent Households w/ Related Children
+    HHD3 - Percent Married Couple Families
+    HHD6 - Percent Persons in Non-Family Household
+    HHD7 - Percent Single Parent Households
+    HHD8 - Percent Male Householder w/ Child
+    HHD12 - Percent Households w/ Non-Family Living Arrangements
 
     IC1 - Median Household Income in hundreds
     IC2 - Median Family Income in hundreds
