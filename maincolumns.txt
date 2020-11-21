@@ -1,6 +1,22 @@
 ####Donor's Characteristics####
+    ODATEDW - Origin Date
+    OSOURCE                     Origin Source
     TCODE - Donor title code
+    STATE - State abbreviation
+    ZIP - Zipcode
+    PVASTATE                    EPVA State or PVA State
     DOB - Date of birth
+    NOEXCH                      Do Not Exchange Flag (For list rental)
+    RECINHSE                    In House File Flag
+    RECP3                       P3 File Flag
+    RECPGVG                     Planned Giving File Flag
+    RECSWEEP                    Sweepstakes file flag
+    MDMAUD                      The Major Donor Matrix code
+    DOMAIN                      DOMAIN/Cluster code.
+    HOMEOWNR                    Home Owner Flag
+    WEALTH1                     Wealth Rating
+    HIT                         MOR Flag # HIT (Mail Order Response)
+
     GENDER
     AGE (New Column)
     
@@ -8,8 +24,7 @@
 
     CONTROLN - Control number (unique record identifier)
 
-    STATE - State abbreviation
-    ZIP - Zipcode
+    
 -----------------------------------------
 
 ####Donor's Interests
@@ -113,15 +128,17 @@
     OCC12 - Percent Transportation
     OCC13 - Percent Laborers, Handlers, Helpers
 
-    EC1                         Median Years of School Completed by Adults 25+
-    EC4                         Percent Adults 25+ Completed High School or Equivalency
-    EC7                         Percent Adults 25+ w/ Bachelors Degree
-    SEC1                        Percent Persons Enrolled in Private Schools
-    SEC2                        Percent Persons Enrolled in Public Schools
-    AFC1                        Percent Adults in Active Military Service
-    VC1                         Percent Vietnam Veterans Age 16+
-    VC3                         Percent WW2 Veterans Age 16+
-    VC4                         Percent Veterans Serving After May 1995 Only
+    EC1 - Median Years of School Completed by Adults 25+
+    EC4 - Percent Adults 25+ Completed High School or Equivalency
+    EC7 - Percent Adults 25+ w/ Bachelors Degree
+    SEC1 - Percent Persons Enrolled in Private Schools
+    SEC2 - Percent Persons Enrolled in Public Schools
+    AFC1 - Percent Adults in Active Military Service
+    VC1 - Percent Vietnam Veterans Age 16+
+    VC3 - Percent WW2 Veterans Age 16+
+    VC4 - Percent Veterans Serving After May 1995 Only
+
+
 
 
 
@@ -142,27 +159,40 @@
 
     ADATE_2                     Date the 97NK promotion was mailed
     ADATE_3                     Date the 96NK promotion was mailed
-    ADATE_4                     Date the 96TK promotion was mailed
-    ADATE_5                     Date the 96SK promotion was mailed
-    ADATE_6                     Date the 96LL promotion was mailed
-    ADATE_7                     Date the 96G1 promotion was mailed
-    ADATE_8                     Date the 96GK promotion was mailed
-    ADATE_9                     Date the 96CC promotion was mailed
-    ADATE_10                    Date the 96WL promotion was mailed
-    ADATE_11                    Date the 96X1 promotion was mailed
-    ADATE_12                    Date the 96XK promotion was mailed
-    ADATE_13                    Date the 95FS promotion was mailed
     ADATE_14                    Date the 95NK promotion was mailed
-    ADATE_15                    Date the 95TK promotion was mailed
-    ADATE_16                    Date the 95LL promotion was mailed
-    ADATE_17                    Date the 95G1 promotion was mailed
-    ADATE_18                    Date the 95GK promotion was mailed
-    ADATE_19                    Date the 95CC promotion was mailed
-    ADATE_20                    Date the 95WL promotion was mailed
-    ADATE_21                    Date the 95X1 promotion was mailed
-    ADATE_22                    Date the 95XK promotion was mailed
-    ADATE_23                    Date the 94FS promotion was mailed
     ADATE_24                    Date the 94NK promotion was mailed
+
+    ADATE_4                     Date the 96TK promotion was mailed
+    ADATE_15                    Date the 95TK promotion was mailed
+
+    ADATE_5                     Date the 96SK promotion was mailed
+
+    ADATE_6                     Date the 96LL promotion was mailed
+    ADATE_16                    Date the 95LL promotion was mailed
+
+    ADATE_7                     Date the 96G1 promotion was mailed
+    ADATE_17                    Date the 95G1 promotion was mailed
+
+    ADATE_8                     Date the 96GK promotion was mailed
+    ADATE_18                    Date the 95GK promotion was mailed
+
+    ADATE_9                     Date the 96CC promotion was mailed
+    ADATE_19                    Date the 95CC promotion was mailed
+
+    ADATE_10                    Date the 96WL promotion was mailed
+    ADATE_20                    Date the 95WL promotion was mailed
+
+    ADATE_11                    Date the 96X1 promotion was mailed
+    ADATE_21                    Date the 95X1 promotion was mailed
+
+
+    ADATE_12                    Date the 96XK promotion was mailed
+    ADATE_22                    Date the 95XK promotion was mailed
+
+    ADATE_13                    Date the 95FS promotion was mailed
+    ADATE_23                    Date the 94FS promotion was mailed
+
+    
 
     RFA_2                       Donor's RFA status as of 97NK promotion date
     RFA_3                       Donor's RFA status as of 96NK promotion date
