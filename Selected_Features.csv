@@ -1,0 +1,476 @@
+﻿Index,FeaturesName,Description,Category,SubCategory,Selected
+1,ODATEDW,Origin Date. Date of donor's first gift,Characteristics,,x
+2,OSOURCE,Origin Source,Characteristics,,x
+3,TCODE,Donor title code,Characteristics,,x
+4,STATE,State abbreviation (a nominal/symbolic field),Characteristics,,x
+5,ZIP,Zipcode (a nominal/symbolic field),Characteristics,,x
+6,MAILCODE,Mail Code,Characteristics,,x
+7,PVASTATE,EPVA State or PVA State,Characteristics,,
+8,DOB,"Date of birth (YYMM, Year/Month format.)",Characteristics,,x
+9,NOEXCH,Do Not Exchange Flag (For list rental),Characteristics,,
+10,RECINHSE,In House File Flag,Characteristics,,
+11,RECP3,P3 File Flag,Characteristics,,
+12,RECPGVG,Planned Giving File Flag,Characteristics,,
+13,RECSWEEP,Sweepstakes file flag,Characteristics,,
+14,MDMAUD,The Major Donor Matrix code,Characteristics,,x
+15,DOMAIN,DOMAIN/Cluster code. A nominal or symbolic field.,Characteristics,,x
+16,HOMEOWNR,Home Owner Flag,Characteristics,,x
+17,CHILD03,Presence of Children age 0-3,Characteristics,,x
+18,CHILD07,Presence of Childern age 4-7,Characteristics,,x
+19,CHILD12,Presence of Childern age 8-12,Characteristics,,x
+20,CHILD18,Presence of Childern age 13-18,Characteristics,,x
+21,NUMCHLD,NUMBER OF CHILDREN,Characteristics,,x
+22,INCOME,HOUSEHOLD INCOME,Characteristics,,x
+23,GENDER,Gender,Characteristics,,x
+24,WEALTH1,Wealth Rating,Characteristics,,x
+25,HIT,MOR Flag # HIT (Mail Order Response),Characteristics,,x
+26,MBCRAFT,Buy Craft Hobby,Mail response,,x
+27,MBGARDEN,Buy Gardening,Mail response,,x
+28,MBBOOKS,Buy Books,Mail response,,x
+29,MBCOLECT,Buy Collectables,Mail response,,x
+30,MAGFAML,Buy General Family Mags,Mail response,,x
+31,MAGFEM,Buy Female Mags,Mail response,,x
+32,MAGMALE,Buy Sports Mags,Mail response,,x
+33,PUBGARDN,Gardening Pubs,Mail response,,x
+34,PUBCULIN,Culinary Pubs,Mail response,,x
+35,PUBHLTH,Health Pubs,Mail response,,x
+36,PUBDOITY,Do It Yourself Pubs,Mail response,,x
+37,PUBNEWFN,News / Finance Pubs,Mail response,,x
+38,PUBPHOTO,Photography Pubs,Mail response,,x
+39,PUBOPP,Opportunity Seekers Pubs,Mail response,,x
+40,DATASRCE,Source of Overlay Data,Third party,,
+41,MALEMILI,% Males active in the Military,Third party,,
+42,MALEVET,% Males Veterans,Third party,,
+43,VIETVETS,% Vietnam Vets,Third party,,
+44,WWIIVETS,% WWII Vets,Third party,,
+45,LOCALGOV,% Employed by Local Gov,Third party,,
+46,STATEGOV,% Employed by State Gov,Third party,,
+47,FEDGOV,% Employed by Fed Gov,Third party,,
+48,SOLP3,SOLICIT LIMITATION CODE P3,Third party,,
+49,SOLIH,SOLICITATION LIMIT CODE IN HOUSE,Third party,,
+50,MAJOR,Major ($$) Donor Flag,Characteristics,,x
+51,WEALTH2,Wealth Rating,Characteristics,,x
+52,GEOCODE,Geo Cluster Code indicating the level geography at which,Characteristics,,x
+53,COLLECT1,COLLECTABLE (Y/N),Interests,,x
+54,VETERANS,VETERANS (Y/N),Interests,,x
+55,BIBLE,BIBLE READING (Y/N),Interests,,x
+56,CATLG,SHOP BY CATALOG (Y/N),Interests,,x
+57,HOMEE,WORK FROM HOME (Y/N),Interests,,x
+58,PETS,HOUSEHOLD PETS (Y/N),Interests,,x
+59,CDPLAY,CD PLAYER OWNERS (Y/N),Interests,,x
+60,STEREO,STEREO/RECORDS/TAPES/CD (Y/N),Interests,,x
+61,PCOWNERS,HOME PC OWNERS/USERS,Interests,,x
+62,PHOTO,PHOTOGRAPHY (Y/N),Interests,,x
+63,CRAFTS,CRAFTS (Y/N),Interests,,x
+64,FISHER,FISHING (Y/N),Interests,,x
+65,GARDENIN,GARDENING (Y/N),Interests,,x
+66,BOATS,POWER BOATING (Y/N),Interests,,x
+67,WALKER,WALK FOR HEALTH (Y/N),Interests,,x
+68,KIDSTUFF,BUYS CHILDREN'S PRODUCTS (Y/N),Interests,,x
+69,CARDS,STATIONARY/CARDS BUYER (Y/N),Interests,,x
+70,PLATES,PLATE COLLECTOR (Y/N),Interests,,x
+71,LIFESRC,LIFE STYLE DATA SOURCE,Interests,,x
+72,PEPSTRFL,Indicates PEP Star RFA Status,Characteristics,,
+73,POP901,Number of Persons,Neighborhood,Population,x
+74,POP902,Number of Families,Neighborhood,Population,
+75,POP903,Number of Households,Neighborhood,Population,
+76,POP90C1,Percent Population in Urbanized Area,Neighborhood,Population,x
+77,POP90C2,Percent Population Outside Urbanized Area,Neighborhood,Population,x
+78,POP90C3,Percent Population Inside Rural Area,Neighborhood,Population,x
+79,POP90C4,Percent Male,Neighborhood,Population,x
+80,POP90C5,Percent Female,Neighborhood,Population,x
+81,ETH1,Percent White,Neighborhood,Ethnicity,x
+82,ETH2,Percent Black,Neighborhood,Ethnicity,x
+83,ETH3,Percent Native American,Neighborhood,Ethnicity,x
+84,ETH4,Percent Pacific Islander/Asian,Neighborhood,Ethnicity,x
+85,ETH5,Percent Hispanic,Neighborhood,Ethnicity,x
+86,ETH6,Percent Asian Indian,Neighborhood,Ethnicity,x
+87,ETH7,Percent Japanese,Neighborhood,Ethnicity,
+88,ETH8,Percent Chinese,Neighborhood,Ethnicity,
+89,ETH9,Percent Philipino,Neighborhood,Ethnicity,
+90,ETH10,Percent Korean,Neighborhood,Ethnicity,x
+91,ETH11,Percent Vietnamese,Neighborhood,Ethnicity,x
+92,ETH12,Percent Hawaiian,Neighborhood,Ethnicity,x
+93,ETH13,Percent Mexican,Neighborhood,Ethnicity,
+94,ETH14,Percent Puerto Rican,Neighborhood,Ethnicity,
+95,ETH15,Percent Cuban,Neighborhood,Ethnicity,
+96,ETH16,Percent Other Hispanic,Neighborhood,Ethnicity,
+97,AGE901,Median Age of Population,Neighborhood,Age,x
+98,AGE902,Median Age of Adults 18 or Older,Neighborhood,Age,
+99,AGE903,Median Age of Adults 25 or Older,Neighborhood,Age,
+100,AGE904,Average Age of Population,Neighborhood,Age,
+101,AGE905,Average Age of Adults >= 18,Neighborhood,Age,
+102,AGE906,Average Age of Adults >= 25,Neighborhood,Age,
+103,AGE907,Percent Population Under Age 18,Neighborhood,Age,x
+104,CHIL1,Percent Children Under Age 7,Neighborhood,Age,
+105,CHIL2,Percent Children Age 7 - 13,Neighborhood,Age,
+106,CHIL3,Percent Children Age 14-17,Neighborhood,Age,
+107,AGEC1,Percent Adults Age18-24,Neighborhood,Age,
+108,AGEC2,Percent Adults Age 25-34,Neighborhood,Age,
+109,AGEC3,Percent Adults Age 35-44,Neighborhood,Age,
+110,AGEC4,Percent Adults Age 45-54,Neighborhood,Age,
+111,AGEC5,Percent Adults Age 55-64,Neighborhood,Age,
+112,AGEC6,Percent Adults Age 65-74,Neighborhood,Age,
+113,AGEC7,Percent Adults Age >= 75,Neighborhood,Age,
+114,CHILC1,Percent Children Age <=2,Neighborhood,Age,
+115,CHILC2,Percent Children Age 3-5,Neighborhood,Age,
+116,CHILC3,Percent Children Age 6-11,Neighborhood,Age,
+117,CHILC4,Percent Children Age 12-15,Neighborhood,Age,
+118,CHILC5,Percent Children Age 16-18,Neighborhood,Age,
+119,HHAGE1,Percent Households w/ Person 65+,Neighborhood,Households,
+120,HHAGE2,Percent Households w/ Person 65+ Living Alone,Neighborhood,Households,
+121,HHAGE3,Percent Households Headed by an Elderly Person Age 65+,Neighborhood,Households,
+122,HHN1,Percent 1 Person Households,Neighborhood,Households,
+123,HHN2,Percent 2 Person Households,Neighborhood,Households,
+124,HHN3,Percent 3 or More Person Households,Neighborhood,Households,
+125,HHN4,Percent 4 or More Person Households,Neighborhood,Households,
+126,HHN5,Percent 5 or More Person Households,Neighborhood,Households,
+127,HHN6,Percent 6 Person Households,Neighborhood,Households,
+128,MARR1,Percent Married,Neighborhood,Marital status,x
+129,MARR2,Percent Separated or Divorced,Neighborhood,Marital status,x
+130,MARR3,Percent Widowed,Neighborhood,Marital status,x
+131,MARR4,Percent Never Married,Neighborhood,Marital status,x
+132,HHP1,Median Person Per Household,Neighborhood,Households,
+133,HHP2,Average Person Per Household,Neighborhood,Households,x
+134,DW1,Percent Single Unit Structure,Neighborhood,Housing,
+135,DW2,Percent Detached Single Unit Structure,Neighborhood,Housing,
+136,DW3,Percent Duplex Structure,Neighborhood,Housing,
+137,DW4,Percent Multi (2+) Unit Structures,Neighborhood,Housing,
+138,DW5,Percent 3+ Unit Structures,Neighborhood,Housing,
+139,DW6,Percent Housing Units in 5+ Unit Structure,Neighborhood,Housing,
+140,DW7,Percent Group Quarters,Neighborhood,Housing,
+141,DW8,Percent Institutional Group Quarters,Neighborhood,Housing,
+142,DW9,Non-Institutional Group Quarters,Neighborhood,Housing,
+143,HV1,Median Home Value in hundreds,Neighborhood,Wealthiness,x
+144,HV2,Average Home Value in hundreds,Neighborhood,Wealthiness,
+145,HV3,Median Contract Rent in hundreds,Neighborhood,Wealthiness,x
+146,HV4,Average Contract Rent in hundreds,Neighborhood,Wealthiness,
+147,HU1,Percent Owner Occupied Housing Units,Neighborhood,Wealthiness,x
+148,HU2,Percent Renter Occupied Housing Units,Neighborhood,Wealthiness,
+149,HU3,Percent Occupied Housing Units,Neighborhood,Wealthiness,x
+150,HU4,Percent Vacant Housing Units,Neighborhood,Wealthiness,x
+151,HU5,Percent Seasonal/Recreational Vacant Units,Neighborhood,Wealthiness,x
+152,HHD1,Percent Households w/ Related Children,Neighborhood,Households,
+153,HHD2,Percent Households w/ Families,Neighborhood,Households,
+154,HHD3,Percent Married Couple Families,Neighborhood,Households,
+155,HHD4,Percent Married Couples w/ Related Children,Neighborhood,Households,
+156,HHD5,Percent Persons in Family Household,Neighborhood,Households,
+157,HHD6,Percent Persons in Non-Family Household,Neighborhood,Households,x
+158,HHD7,Percent Single Parent Households,Neighborhood,Households,x
+159,HHD8,Percent Male Householder w/ Child,Neighborhood,Households,x
+160,HHD9,Percent Female Householder w/ Child,Neighborhood,Households,
+161,HHD10,Percent Single Male Householder,Neighborhood,Households,
+162,HHD11,Percent Single Female Householder,Neighborhood,Households,
+163,HHD12,Percent Households w/ Non-Family Living Arrangements,Neighborhood,Households,x
+164,ETHC1,Percent White < Age 15,Neighborhood,Ethnicity,
+165,ETHC2,Percent White Age 15 - 59,Neighborhood,Ethnicity,
+166,ETHC3,Percent White Age 60+,Neighborhood,Ethnicity,
+167,ETHC4,Percent Black < Age 15,Neighborhood,Ethnicity,
+168,ETHC5,Percent Black Age 15 - 59,Neighborhood,Ethnicity,
+169,ETHC6,Percent Black Age 60+,Neighborhood,Ethnicity,
+170,HVP1,"Percent Home Value >= $200,000",Neighborhood,Wealthiness,
+171,HVP2,"Percent Home Value >= $150,000",Neighborhood,Wealthiness,
+172,HVP3,"Percent Home Value >= $100,000",Neighborhood,Wealthiness,
+173,HVP4,"Percent Home Value >= $75,000",Neighborhood,Wealthiness,
+174,HVP5,"Percent Home Value >= $50,000",Neighborhood,Wealthiness,
+175,HVP6,"Percent Home Value >= $300,000",Neighborhood,Wealthiness,
+176,HUR1,$ 1 or 2 Room Housing Units,Neighborhood,Housing,
+177,HUR2,Percent >= 6 Room Housing Units,Neighborhood,Housing,
+178,RHP1,Median Number of Rooms per Housing Unit,Neighborhood,Housing,
+179,RHP2,Average Number of Rooms per Housing Unit,Neighborhood,Housing,
+180,RHP3,Median Number of Persons per Housing Unit,Neighborhood,Housing,
+181,RHP4,Average Number of Persons per Room,Neighborhood,Housing,
+182,HUPA1,Percent Housing Units w/ 2 thru 9 Units at the Address,Neighborhood,Housing,
+183,HUPA2,Percent Housing Units w/ >= 10 Units at the Address,Neighborhood,Housing,
+184,HUPA3,Percent Mobile Homes or Trailers,Neighborhood,Housing,
+185,HUPA4,Percent Renter Occupied Single Unit Structure,Neighborhood,Housing,
+186,HUPA5,"Percent Renter Occupied, 2 - 4 Units",Neighborhood,Housing,
+187,HUPA6,"Percent Renter Occupied, 5+ Units",Neighborhood,Housing,
+188,HUPA7,Percent Renter Occupied Mobile Homes or Trailers,Neighborhood,Housing,
+189,RP1,Percent Renters Paying >= $500 per Month,Neighborhood,Housing,
+190,RP2,Percent Renters Paying >= $400 per Month,Neighborhood,Housing,
+191,RP3,Percent Renters Paying >= $300 per Month,Neighborhood,Housing,
+192,RP4,Percent Renters Paying >= $200 per Month,Neighborhood,Housing,
+193,MSA,MSA Code,Neighborhood,Code,x
+194,ADI,ADI Code,Neighborhood,Code,x
+195,DMA,DMA Code,Neighborhood,Code,x
+196,IC1,Median Household Income in hundreds,Neighborhood,Wealthiness,
+197,IC2,Median Family Income in hundreds,Neighborhood,Wealthiness,x
+198,IC3,Average Household Income in hundreds,Neighborhood,Wealthiness,
+199,IC4,Average Family Income in hundreds,Neighborhood,Wealthiness,
+200,IC5,Per Capita Income,Neighborhood,Wealthiness,x
+201,IC6,"Percent Households w/ Income < $15,000",Neighborhood,Wealthiness,
+202,IC7,"Percent Households w/ Income $15,000 - $24,999",Neighborhood,Wealthiness,
+203,IC8,"Percent Households w/ Income $25,000 - $34,999",Neighborhood,Wealthiness,
+204,IC9,"Percent Households w/ Income $35,000 - $49,999",Neighborhood,Wealthiness,
+205,IC10,"Percent Households w/ Income $50,000 - $74,999",Neighborhood,Wealthiness,
+206,IC11,"Percent Households w/ Income $75,000 - $99,999",Neighborhood,Wealthiness,
+207,IC12,"Percent Households w/ Income $100,000 - $124,999",Neighborhood,Wealthiness,
+208,IC13,"Percent Households w/ Income $125,000 - $149,999",Neighborhood,Wealthiness,
+209,IC14,"Percent Households w/ Income >= $150,000",Neighborhood,Wealthiness,
+210,IC15,"Percent Families w/ Income < $15,000",Neighborhood,Wealthiness,
+211,IC16,"Percent Families w/ Income $15,000 - $24,999",Neighborhood,Wealthiness,
+212,IC17,"Percent Families w/ Income $25,000 - 34,999",Neighborhood,Wealthiness,
+213,IC18,"Percent Families w/ Income $35,000 - $49,999",Neighborhood,Wealthiness,
+214,IC19,"Percent Families w/ Income $50,000 - $74,999",Neighborhood,Wealthiness,
+215,IC20,"Percent Families w/ Income $75,000 - $99,999",Neighborhood,Wealthiness,
+216,IC21,"Percent Families w/ Income $100,000 - $124,999",Neighborhood,Wealthiness,
+217,IC22,"Percent Families w/ Income $125,000 - $149,999",Neighborhood,Wealthiness,
+218,IC23,"Percent Families w/ Income >= $150,000",Neighborhood,Wealthiness,
+219,HHAS1,Percent Households on Social Security,Neighborhood,Households,x
+220,HHAS2,Percent Households on Public Assistance,Neighborhood,Households,x
+221,HHAS3,"Percent Households w/ Interest, Rental or Dividend Income",Neighborhood,Households,x
+222,HHAS4,Percent Persons Below Poverty Level,Neighborhood,Households,x
+223,MC1,Percent Persons Move in Since 2005,Neighborhood,Housing,
+224,MC2,Percent Persons in Same House in 2005,Neighborhood,Housing,
+225,MC3,Percent Persons in Different State/Country in 2005,Neighborhood,Housing,
+226,TPE1,Percent Driving to Work Alone Car/Truck/Van,Neighborhood,Transportation,x
+227,TPE2,Percent Carpooling Car/Truck/Van),Neighborhood,Transportation,x
+228,TPE3,Percent Using Public Transportation,Neighborhood,Transportation,x
+229,TPE4,Percent Using Bus/Trolley,Neighborhood,Transportation,
+230,TPE5,Percent Using Railways,Neighborhood,Transportation,
+231,TPE6,Percent Using Taxi/Ferry,Neighborhood,Transportation,
+232,TPE7,Percent Using Motorcycles,Neighborhood,Transportation,x
+233,TPE8,Percent Using Other Transportation,Neighborhood,Transportation,x
+234,TPE9,Percent Working at Home/No Transportation,Neighborhood,Working,x
+235,PEC1,Percent Working Outside State of Residence,Neighborhood,Working,x
+236,PEC2,Percent Working Outside County of Residence in State,Neighborhood,Working,
+237,TPE10,Median Travel Time to Work in minutes,Neighborhood,Working,x
+238,TPE11,Mean Travel Time to Work in minutes,Neighborhood,Working,
+239,TPE12,Percent Traveling 60+ Minutes to Work,Neighborhood,Working,
+240,TPE13,Percent Traveling 15 - 59 Minutes to Work,Neighborhood,Working,
+241,LFC1,Percent Adults in Labor Force,Neighborhood,Labor Force,x
+242,LFC2,Percent Adult Males in Labor Force,Neighborhood,Labor Force,
+243,LFC3,Percent Females in Labor Force,Neighborhood,Labor Force,
+244,LFC4,Percent Adult Males Employed,Neighborhood,Labor Force,x
+245,LFC5,Percent Adult Females Employed,Neighborhood,Labor Force,
+246,LFC6,Percent Mothers Employed Married and Single,Neighborhood,Labor Force,
+247,LFC7,Percent 2 Parent Earner Families,Neighborhood,Labor Force,
+248,LFC8,Percent Single Mother w/ Child in Labor Force,Neighborhood,Labor Force,
+249,LFC9,Percent Single Father w/ Child in Labor Force,Neighborhood,Labor Force,
+250,LFC10,Percent Families w/ Child w/ no Workers,Neighborhood,Labor Force,
+251,OCC1,Percent Professional,Neighborhood,Occupation,x
+252,OCC2,Percent Managerial,Neighborhood,Occupation,x
+253,OCC3,Percent Technical,Neighborhood,Occupation,x
+254,OCC4,Percent Sales,Neighborhood,Occupation,x
+255,OCC5,Percent Clerical/Administrative Support,Neighborhood,Occupation,x
+256,OCC6,Percent Private Household Service Occ.,Neighborhood,Occupation,x
+257,OCC7,Percent Protective Service Occ.,Neighborhood,Occupation,x
+258,OCC8,Percent Other Service Occ.,Neighborhood,Occupation,x
+259,OCC9,Percent Farmers,Neighborhood,Occupation,x
+260,OCC10,"Percent Craftsmen, Precision, Repair",Neighborhood,Occupation,x
+261,OCC11,"Percent Operatives, Machine",Neighborhood,Occupation,x
+262,OCC12,Percent Transportation,Neighborhood,Occupation,x
+263,OCC13,"Percent Laborers, Handlers, Helpers",Neighborhood,Occupation,x
+264,EIC1,Percent Employed in Agriculture,Neighborhood,Occupation,
+265,EIC2,Percent Employed in Mining,Neighborhood,Occupation,
+266,EIC3,Percent Employed in Construction,Neighborhood,Occupation,
+267,EIC4,Percent Employed in Manufacturing,Neighborhood,Occupation,
+268,EIC5,Percent Employed in Transportation,Neighborhood,Occupation,
+269,EIC6,Percent Employed in Communications,Neighborhood,Occupation,
+270,EIC7,Percent Employed in Wholesale Trade,Neighborhood,Occupation,
+271,EIC8,Percent Employed in Retail Industry,Neighborhood,Occupation,
+272,EIC9,"Percent Employed in Finance, Insurance, Real Estate",Neighborhood,Occupation,
+273,EIC10,Percent Employed in Business and Repair,Neighborhood,Occupation,
+274,EIC11,Percent Employed in Personnal Services,Neighborhood,Occupation,
+275,EIC12,Percent Employed in Entertainment and Recreation,Neighborhood,Occupation,
+276,EIC13,Percent Employed in Health Services,Neighborhood,Occupation,
+277,EIC14,Percent Employed in Educational Services,Neighborhood,Occupation,
+278,EIC15,Percent Employed in Other Professional Services,Neighborhood,Occupation,
+279,EIC16,Percent Employed in Public Administration,Neighborhood,Occupation,
+280,OEDC1,Percent Employed by Local Government,Neighborhood,Occupation,
+281,OEDC2,Percent Employed by State Government,Neighborhood,Occupation,
+282,OEDC3,Percent Employed by Federal Government,Neighborhood,Occupation,
+283,OEDC4,Percent Self Employed,Neighborhood,Occupation,
+284,OEDC5,Percent Private Profit Wage or Salaried Worker,Neighborhood,Occupation,
+285,OEDC6,Percent Private Non-Profit Wage or Salaried Worker,Neighborhood,Occupation,
+286,OEDC7,Percent Unpaid Family Workers,Neighborhood,Occupation,
+287,EC1,Median Years of School Completed by Adults 25+,Neighborhood,Education,x
+288,EC2,Percent Adults 25+ Grades 0-8,Neighborhood,Education,
+289,EC3,Percent Adults 25+ w/ some High School,Neighborhood,Education,
+290,EC4,Percent Adults 25+ Completed High School or Equivalency,Neighborhood,Education,x
+291,EC5,Percent Adults 25+ w/ some College,Neighborhood,Education,
+292,EC6,Percent Adults 25+ w/ Associates Degree,Neighborhood,Education,
+293,EC7,Percent Adults 25+ w/ Bachelors Degree,Neighborhood,Education,x
+294,EC8,Percent Adults 25+ Graduate Degree,Neighborhood,Education,
+295,SEC1,Percent Persons Enrolled in Private Schools,Neighborhood,Education,x
+296,SEC2,Percent Persons Enrolled in Public Schools,Neighborhood,Education,x
+297,SEC3,Percent Persons Enrolled in Preschool,Neighborhood,Education,
+298,SEC4,Percent Persons Enrolled in Elementary or High School,Neighborhood,Education,
+299,SEC5,Percent Persons in College,Neighborhood,Education,
+300,AFC1,Percent Adults in Active Military Service,Neighborhood,Military,x
+301,AFC2,Percent Males in Active Military Service,Neighborhood,Military,
+302,AFC3,Percent Females in Active Military Service,Neighborhood,Military,
+303,AFC4,Percent Adult Veterans Age 16+,Neighborhood,Military,x
+304,AFC5,Percent Male Veterans Age 16+,Neighborhood,Military,
+305,AFC6,Percent Female Veterans Age 16+,Neighborhood,Military,
+306,VC1,Percent Vietnam Veterans Age 16+,Neighborhood,Military,x
+307,VC2,Percent Korean Veterans Age 16+,Neighborhood,Military,
+308,VC3,Percent WW2 Veterans Age 16+,Neighborhood,Military,x
+309,VC4,Percent Veterans Serving After May 1995 Only,Neighborhood,Military,x
+310,ANC1,Percent Dutch Ancestry,Neighborhood,Ancestry,
+311,ANC2,Percent English Ancestry,Neighborhood,Ancestry,
+312,ANC3,Percent French Ancestry,Neighborhood,Ancestry,
+313,ANC4,Percent German Ancestry,Neighborhood,Ancestry,
+314,ANC5,Percent Greek Ancestry,Neighborhood,Ancestry,
+315,ANC6,Percent Hungarian Ancestry,Neighborhood,Ancestry,
+316,ANC7,Percent Irish Ancestry,Neighborhood,Ancestry,
+317,ANC8,Percent Italian Ancestry,Neighborhood,Ancestry,
+318,ANC9,Percent Norwegian Ancestry,Neighborhood,Ancestry,
+319,ANC10,Percent Polish Ancestry,Neighborhood,Ancestry,
+320,ANC11,Percent Portuguese Ancestry,Neighborhood,Ancestry,
+321,ANC12,Percent Russian Ancestry,Neighborhood,Ancestry,
+322,ANC13,Percent Scottish Ancestry,Neighborhood,Ancestry,
+323,ANC14,Percent Swedish Ancestry,Neighborhood,Ancestry,
+324,ANC15,Percent Ukranian Ancestry,Neighborhood,Ancestry,
+325,POBC1,Percent Foreign Born,Neighborhood,Ancestry,x
+326,POBC2,Percent Born in State of Residence,Neighborhood,Ancestry,
+327,LSC1,Percent English Only Speaking,Neighborhood,Language,
+328,LSC2,Percent Spanish Speaking,Neighborhood,Language,
+329,LSC3,Percent Asian Speaking,Neighborhood,Language,
+330,LSC4,Percent Other Language Speaking,Neighborhood,Language,
+331,VOC1,Percent Households w/ 1+ Vehicles,Neighborhood,Vehicles,
+332,VOC2,Percent Households w/ 2+ Vehicles,Neighborhood,Vehicles,
+333,VOC3,Percent Households w/ 3+ Vehicles,Neighborhood,Vehicles,
+334,HC1,Percent Median Length of Residence,Neighborhood,Housing Stuctures,
+335,HC2,Percent Median Age of Occupied Dwellings in years,Neighborhood,Housing Stuctures,
+336,HC3,Percent Owner Occupied Structures Built Since 2009,Neighborhood,Housing Stuctures,
+337,HC4,Percent Owner Occupied Structures Built Since 2005,Neighborhood,Housing Stuctures,
+338,HC5,Percent Owner Occupied Structures Built Since 2000,Neighborhood,Housing Stuctures,
+339,HC6,Percent Owner Occupied Structures Built Since 1990,Neighborhood,Housing Stuctures,
+340,HC7,Percent Owner Occupied Structures Built Since 1980,Neighborhood,Housing Stuctures,
+341,HC8,Percent Owner Occupied Structures Built Prior to 1860,Neighborhood,Housing Stuctures,
+342,HC9,Percent Owner Occupied Condominiums,Neighborhood,Housing Stuctures,
+343,HC10,Percent Renter Occupied Condominiums,Neighborhood,Housing Stuctures,
+344,HC11,Percent Occupied Housing Units Heated by Utility Gas,Neighborhood,Housing Stuctures,
+345,HC12,"Percent Occupied Housing Units Heated by Bottled, Tank or LP",Neighborhood,Housing Stuctures,
+346,HC13,Percent Occupied Housing Units Heated by Electricity,Neighborhood,Housing Stuctures,
+347,HC14,Percent Occupied Housing Units Heated by Fuel Oil,Neighborhood,Housing Stuctures,
+348,HC15,Percent Occupied Housing Units Heated by Solar Energy,Neighborhood,Housing Stuctures,
+349,HC16,"Percent Occupied Housing Units Heated by Coal, Wood, Other",Neighborhood,Housing Stuctures,
+350,HC17,Percent Housing Units w/ Public Water Source,Neighborhood,Housing Stuctures,
+351,HC18,Percent Housing Units w/ Well Water Source,Neighborhood,Housing Stuctures,
+352,HC19,Percent Housing Units w/ Public Sewer Source,Neighborhood,Housing Stuctures,
+353,HC20,Percent Housing Units w/ Complete Plumbing Facilities,Neighborhood,Housing Stuctures,
+354,HC21,Percent Housing Units w/ Telephones,Neighborhood,Housing Stuctures,
+355,MHUC1,Median Homeowner Cost w/ Mortgage per Month dollars,Neighborhood,Housing,
+356,MHUC2,Median Homeowner Cost w/out Mortgage per Month dollars,Neighborhood,Housing,
+357,AC1,Percent Adults Age 55-59,Neighborhood,Age,
+358,AC2,Percent Adults Age 60-64,Neighborhood,Age,
+359,ADATE_2,Date the 97NK promotion was mailed,Promotion and Gift,Specific promotion,
+360,ADATE_3,Date the 96NK promotion was mailed,Promotion and Gift,Specific promotion,
+361,ADATE_4,Date the 96TK promotion was mailed,Promotion and Gift,Specific promotion,
+362,ADATE_5,Date the 96SK promotion was mailed,Promotion and Gift,Specific promotion,
+363,ADATE_6,Date the 96LL promotion was mailed,Promotion and Gift,Specific promotion,
+364,ADATE_7,Date the 96G1 promotion was mailed,Promotion and Gift,Specific promotion,
+365,ADATE_8,Date the 96GK promotion was mailed,Promotion and Gift,Specific promotion,
+366,ADATE_9,Date the 96CC promotion was mailed,Promotion and Gift,Specific promotion,
+367,ADATE_10,Date the 96WL promotion was mailed,Promotion and Gift,Specific promotion,
+368,ADATE_11,Date the 96X1 promotion was mailed,Promotion and Gift,Specific promotion,
+369,ADATE_12,Date the 96XK promotion was mailed,Promotion and Gift,Specific promotion,
+370,ADATE_13,Date the 95FS promotion was mailed,Promotion and Gift,Specific promotion,
+371,ADATE_14,Date the 95NK promotion was mailed,Promotion and Gift,Specific promotion,
+372,ADATE_15,Date the 95TK promotion was mailed,Promotion and Gift,Specific promotion,
+373,ADATE_16,Date the 95LL promotion was mailed,Promotion and Gift,Specific promotion,
+374,ADATE_17,Date the 95G1 promotion was mailed,Promotion and Gift,Specific promotion,
+375,ADATE_18,Date the 95GK promotion was mailed,Promotion and Gift,Specific promotion,
+376,ADATE_19,Date the 95CC promotion was mailed,Promotion and Gift,Specific promotion,
+377,ADATE_20,Date the 95WL promotion was mailed,Promotion and Gift,Specific promotion,
+378,ADATE_21,Date the 95X1 promotion was mailed,Promotion and Gift,Specific promotion,
+379,ADATE_22,Date the 95XK promotion was mailed,Promotion and Gift,Specific promotion,
+380,ADATE_23,Date the 94FS promotion was mailed,Promotion and Gift,Specific promotion,
+381,ADATE_24,Date the 94NK promotion was mailed,Promotion and Gift,Specific promotion,
+382,RFA_2,Donor's RFA status as of 97NK promotion date,Promotion and Gift,Specific promotion,
+383,RFA_3,Donor's RFA status as of 96NK promotion date,Promotion and Gift,Specific promotion,x
+384,RFA_4,Donor's RFA status as of 96TK promotion date,Promotion and Gift,Specific promotion,x
+385,RFA_5,Donor's RFA status as of 96SK promotion date,Promotion and Gift,Specific promotion,x
+386,RFA_6,Donor's RFA status as of 96LL promotion date,Promotion and Gift,Specific promotion,x
+387,RFA_7,Donor's RFA status as of 96G1 promotion date,Promotion and Gift,Specific promotion,x
+388,RFA_8,Donor's RFA status as of 96GK promotion date,Promotion and Gift,Specific promotion,x
+389,RFA_9,Donor's RFA status as of 96CC promotion date,Promotion and Gift,Specific promotion,x
+390,RFA_10,Donor's RFA status as of 96WL promotion date,Promotion and Gift,Specific promotion,x
+391,RFA_11,Donor's RFA status as of 96X1 promotion date,Promotion and Gift,Specific promotion,x
+392,RFA_12,Donor's RFA status as of 96XK promotion date,Promotion and Gift,Specific promotion,x
+393,RFA_13,Donor's RFA status as of 95FS promotion date,Promotion and Gift,Specific promotion,x
+394,RFA_14,Donor's RFA status as of 95NK promotion date,Promotion and Gift,Specific promotion,x
+395,RFA_15,Donor's RFA status as of 95TK promotion date,Promotion and Gift,Specific promotion,x
+396,RFA_16,Donor's RFA status as of 95LL promotion date,Promotion and Gift,Specific promotion,x
+397,RFA_17,Donor's RFA status as of 95G1 promotion date,Promotion and Gift,Specific promotion,x
+398,RFA_18,Donor's RFA status as of 95GK promotion date,Promotion and Gift,Specific promotion,x
+399,RFA_19,Donor's RFA status as of 95CC promotion date,Promotion and Gift,Specific promotion,x
+400,RFA_20,Donor's RFA status as of 95WL promotion date,Promotion and Gift,Specific promotion,x
+401,RFA_21,Donor's RFA status as of 95X1 promotion date,Promotion and Gift,Specific promotion,x
+402,RFA_22,Donor's RFA status as of 95XK promotion date,Promotion and Gift,Specific promotion,x
+403,RFA_23,Donor's RFA status as of 94FS promotion date,Promotion and Gift,Specific promotion,x
+404,RFA_24,Donor's RFA status as of 94NK promotion date,Promotion and Gift,Specific promotion,x
+405,CARDPROM,Lifetime number of card promotions received to,Promotion and Gift,Summary,x
+406,MAXADATE,Date of the most recent promotion received (in,Promotion and Gift,Summary,x
+407,NUMPROM,Lifetime number of promotions received to date,Promotion and Gift,Summary,x
+408,CARDPM12,Number of card promotions received in the last,Promotion and Gift,Summary,x
+409,NUMPRM12,Number of promotions received in the last 12,Promotion and Gift,Summary,x
+410,RDATE_3,Date the gift was received for 96NK,Promotion and Gift,Specific promotion,
+411,RDATE_4,Date the gift was received for 96TK,Promotion and Gift,Specific promotion,
+412,RDATE_5,Date the gift was received for 96SK,Promotion and Gift,Specific promotion,
+413,RDATE_6,Date the gift was received for 96LL,Promotion and Gift,Specific promotion,
+414,RDATE_7,Date the gift was received for 96G1,Promotion and Gift,Specific promotion,
+415,RDATE_8,Date the gift was received for 96GK,Promotion and Gift,Specific promotion,
+416,RDATE_9,Date the gift was received for 96CC,Promotion and Gift,Specific promotion,
+417,RDATE_10,Date the gift was received for 96WL,Promotion and Gift,Specific promotion,
+418,RDATE_11,Date the gift was received for 96X1,Promotion and Gift,Specific promotion,
+419,RDATE_12,Date the gift was received for 96XK,Promotion and Gift,Specific promotion,
+420,RDATE_13,Date the gift was received for 95FS,Promotion and Gift,Specific promotion,
+421,RDATE_14,Date the gift was received for 95NK,Promotion and Gift,Specific promotion,
+422,RDATE_15,Date the gift was received for 95TK,Promotion and Gift,Specific promotion,
+423,RDATE_16,Date the gift was received for 95LL,Promotion and Gift,Specific promotion,
+424,RDATE_17,Date the gift was received for 95G1,Promotion and Gift,Specific promotion,
+425,RDATE_18,Date the gift was received for 95GK,Promotion and Gift,Specific promotion,
+426,RDATE_19,Date the gift was received for 95CC,Promotion and Gift,Specific promotion,
+427,RDATE_20,Date the gift was received for 95WL,Promotion and Gift,Specific promotion,
+428,RDATE_21,Date the gift was received for 95X1,Promotion and Gift,Specific promotion,
+429,RDATE_22,Date the gift was received for 95XK,Promotion and Gift,Specific promotion,
+430,RDATE_23,Date the gift was received for 94FS,Promotion and Gift,Specific promotion,
+431,RDATE_24,Date the gift was received for 94NK,Promotion and Gift,Specific promotion,
+432,RAMNT_3,Dollar amount of the gift for 96NK,Promotion and Gift,Specific promotion,
+433,RAMNT_4,Dollar amount of the gift for 96TK,Promotion and Gift,Specific promotion,
+434,RAMNT_5,Dollar amount of the gift for 96SK,Promotion and Gift,Specific promotion,
+435,RAMNT_6,Dollar amount of the gift for 96LL,Promotion and Gift,Specific promotion,
+436,RAMNT_7,Dollar amount of the gift for 96G1,Promotion and Gift,Specific promotion,
+437,RAMNT_8,Dollar amount of the gift for 96GK,Promotion and Gift,Specific promotion,
+438,RAMNT_9,Dollar amount of the gift for 96CC,Promotion and Gift,Specific promotion,
+439,RAMNT_10,Dollar amount of the gift for 96WL,Promotion and Gift,Specific promotion,
+440,RAMNT_11,Dollar amount of the gift for 96X1,Promotion and Gift,Specific promotion,
+441,RAMNT_12,Dollar amount of the gift for 96XK,Promotion and Gift,Specific promotion,
+442,RAMNT_13,Dollar amount of the gift for 95FS,Promotion and Gift,Specific promotion,
+443,RAMNT_14,Dollar amount of the gift for 95NK,Promotion and Gift,Specific promotion,
+444,RAMNT_15,Dollar amount of the gift for 95TK,Promotion and Gift,Specific promotion,
+445,RAMNT_16,Dollar amount of the gift for 95LL,Promotion and Gift,Specific promotion,
+446,RAMNT_17,Dollar amount of the gift for 95G1,Promotion and Gift,Specific promotion,
+447,RAMNT_18,Dollar amount of the gift for 95GK,Promotion and Gift,Specific promotion,
+448,RAMNT_19,Dollar amount of the gift for 95CC,Promotion and Gift,Specific promotion,
+449,RAMNT_20,Dollar amount of the gift for 95WL,Promotion and Gift,Specific promotion,
+450,RAMNT_21,Dollar amount of the gift for 95X1,Promotion and Gift,Specific promotion,
+451,RAMNT_22,Dollar amount of the gift for 95XK,Promotion and Gift,Specific promotion,
+452,RAMNT_23,Dollar amount of the gift for 94FS,Promotion and Gift,Specific promotion,
+453,RAMNT_24,Dollar amount of the gift for 94NK,Promotion and Gift,Specific promotion,
+454,RAMNTALL,Dollar amount of lifetime gifts to date,Promotion and Gift,Summary,x
+455,NGIFTALL,Number of lifetime gifts to date,Promotion and Gift,Summary,x
+456,CARDGIFT,Number of lifetime gifts to card promotions to date,Promotion and Gift,Summary,x
+457,MINRAMNT,Dollar amount of smallest gift to date,Promotion and Gift,Summary,x
+458,MINRDATE,Date associated with the smallest gift to date,Promotion and Gift,Summary,x
+459,MAXRAMNT,Dollar amount of largest gift to date,Promotion and Gift,Summary,x
+460,MAXRDATE,Date associated with the largest gift to date,Promotion and Gift,Summary,x
+461,LASTGIFT,Dollar amount of most recent gift,Promotion and Gift,Summary,x
+462,LASTDATE,Date associated with the most recent gift,Promotion and Gift,Summary,x
+463,FISTDATE,Date of first gift,Promotion and Gift,Summary,x
+464,NEXTDATE,Date of second gift,Promotion and Gift,Summary,x
+465,TIMELAG,Number of months between first and second gift,Promotion and Gift,Summary,x
+466,AVGGIFT,Average dollar amount of gifts to date,Promotion and Gift,Summary,x
+467,CONTROLN,Control number (unique record identifier),Promotion and Gift,Summary,
+468,HPHONE_D,Indicator for presence of a published home phone number,Characteristics,,
+469,RFA_2R,Recency code for RFA_2,Promotion and Gift,Summary,x
+470,RFA_2F,Frequency code for RFA_2,Promotion and Gift,Summary,x
+471,RFA_2A,Donation Amount code for RFA_2,Promotion and Gift,Summary,x
+472,MDMAUD_R,Recency code for MDMAUD,Promotion and Gift,Summary,x
+473,MDMAUD_F,Frequecy code for MDMAUD,Promotion and Gift,Summary,x
+474,MDMAUD_A,Donation Amount code for MDMAUD,Promotion and Gift,Summary,x
+475,GEOCODE2,County Size Code,Characteristics,,x
