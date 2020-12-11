@@ -29,13 +29,10 @@ def correlation_check(df, limit = 0.90, drop = False):
     corr = df.corr()
     mask = np.triu(np.ones(corr.shape), k=1).astype(bool)
     corr_no_diag = corr.where(mask)
-    coll = [c for c in corr_no_diag.columns if any(abs(corr_no_diag[c]) > limit)]
-    if drop is True:        
-        df.drop(coll,axis = 1,inplace=True)
-        print('Dropped:', coll)
-        return df
-    else:
-        print('Columns having high correlation:', coll)  
+    coll = [c for c in corr_no_diag.columns if any(abs(corr_no_diag[c]) > limit)]        
+    df.drop(coll,axis = 1,inplace=True)
+    print('Dropped:', coll)
+    return df
 
 
 # checking the value counts
