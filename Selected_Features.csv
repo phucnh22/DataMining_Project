@@ -1,3 +1,130 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:30649153263f11d2b04fdbac9ffc9ef1a6d87b80d1bee61fe633e2424496a2cf
-size 33723
+﻿Index,FeaturesName,Description,Category,Selected
+1,ODATEDW,Origin Date. Date of donor's first gift,Characteristics,x
+2,OSOURCE,Origin Source,Characteristics,x
+3,TCODE,Donor title code,Characteristics,x
+4,STATE,State abbreviation (a nominal/symbolic field),Characteristics,x
+5,ZIP,Zipcode (a nominal/symbolic field),Characteristics,x
+6,MAILCODE,Mail Code,Characteristics,x
+8,DOB,"Date of birth (YYMM, Year/Month format.)",Characteristics,x
+14,MDMAUD,The Major Donor Matrix code,Characteristics,x
+15,DOMAIN,DOMAIN/Cluster code. A nominal or symbolic field.,Characteristics,x
+16,HOMEOWNR,Home Owner Flag,Characteristics,x
+17,CHILD03,Presence of Children age 0-3,Characteristics,x
+18,CHILD07,Presence of Childern age 4-7,Characteristics,x
+19,CHILD12,Presence of Childern age 8-12,Characteristics,x
+20,CHILD18,Presence of Childern age 13-18,Characteristics,x
+21,NUMCHLD,NUMBER OF CHILDREN,Characteristics,x
+22,INCOME,HOUSEHOLD INCOME,Characteristics,x
+23,GENDER,Gender,Characteristics,x
+24,WEALTH1,Wealth Rating,Characteristics,x
+25,HIT,MOR Flag # HIT (Mail Order Response),Characteristics,x
+26,MBCRAFT,Buy Craft Hobby,Mail response,x
+27,MBGARDEN,Buy Gardening,Mail response,x
+28,MBBOOKS,Buy Books,Mail response,x
+29,MBCOLECT,Buy Collectables,Mail response,x
+30,MAGFAML,Buy General Family Mags,Mail response,x
+31,MAGFEM,Buy Female Mags,Mail response,x
+32,MAGMALE,Buy Sports Mags,Mail response,x
+33,PUBGARDN,Gardening Pubs,Mail response,x
+34,PUBCULIN,Culinary Pubs,Mail response,x
+35,PUBHLTH,Health Pubs,Mail response,x
+36,PUBDOITY,Do It Yourself Pubs,Mail response,x
+37,PUBNEWFN,News / Finance Pubs,Mail response,x
+38,PUBPHOTO,Photography Pubs,Mail response,x
+39,PUBOPP,Opportunity Seekers Pubs,Mail response,x
+50,MAJOR,Major ($$) Donor Flag,Characteristics,x
+51,WEALTH2,Wealth Rating,Characteristics,x
+52,GEOCODE,Geo Cluster Code indicating the level geography at which,Characteristics,x
+53,COLLECT1,COLLECTABLE (Y/N),Interests,x
+54,VETERANS,VETERANS (Y/N),Interests,x
+55,BIBLE,BIBLE READING (Y/N),Interests,x
+56,CATLG,SHOP BY CATALOG (Y/N),Interests,x
+57,HOMEE,WORK FROM HOME (Y/N),Interests,x
+58,PETS,HOUSEHOLD PETS (Y/N),Interests,x
+59,CDPLAY,CD PLAYER OWNERS (Y/N),Interests,x
+60,STEREO,STEREO/RECORDS/TAPES/CD (Y/N),Interests,x
+61,PCOWNERS,HOME PC OWNERS/USERS,Interests,x
+62,PHOTO,PHOTOGRAPHY (Y/N),Interests,x
+63,CRAFTS,CRAFTS (Y/N),Interests,x
+64,FISHER,FISHING (Y/N),Interests,x
+65,GARDENIN,GARDENING (Y/N),Interests,x
+66,BOATS,POWER BOATING (Y/N),Interests,x
+67,WALKER,WALK FOR HEALTH (Y/N),Interests,x
+68,KIDSTUFF,BUYS CHILDREN'S PRODUCTS (Y/N),Interests,x
+69,CARDS,STATIONARY/CARDS BUYER (Y/N),Interests,x
+70,PLATES,PLATE COLLECTOR (Y/N),Interests,x
+71,LIFESRC,LIFE STYLE DATA SOURCE,Interests,x
+73,POP901,Number of Persons,Neighborhood,x
+76,POP90C1,Percent Population in Urbanized Area,Neighborhood,x
+79,POP90C4,Percent Male,Neighborhood,x
+81,ETH1,Percent White,Neighborhood,x
+82,ETH2,Percent Black,Neighborhood,x
+83,ETH3,Percent Native American,Neighborhood,x
+84,ETH4,Percent Pacific Islander/Asian,Neighborhood,x
+85,ETH5,Percent Hispanic,Neighborhood,x
+86,ETH6,Percent Asian Indian,Neighborhood,x
+97,AGE901,Median Age of Population,Neighborhood,x
+128,MARR1,Percent Married,Neighborhood,x
+129,MARR2,Percent Separated or Divorced,Neighborhood,x
+130,MARR3,Percent Widowed,Neighborhood,x
+131,MARR4,Percent Never Married,Neighborhood,x
+133,HHP2,Average Person Per Household,Neighborhood,x
+143,HV1,Median Home Value in hundreds,Neighborhood,x
+145,HV3,Median Contract Rent in hundreds,Neighborhood,x
+149,HU3,Percent Occupied Housing Units,Neighborhood,x
+197,IC2,Median Family Income in hundreds,Neighborhood,x
+200,IC5,Per Capita Income,Neighborhood,x
+237,TPE10,Median Travel Time to Work in minutes,Neighborhood,x
+241,LFC1,Percent Adults in Labor Force,Neighborhood,x
+251,OCC1,Percent Professional,Neighborhood,x
+287,EC1,Median Years of School Completed by Adults 25+,Neighborhood,x
+300,AFC1,Percent Adults in Active Military Service,Neighborhood,x
+303,AFC4,Percent Adult Veterans Age 16+,Neighborhood,x
+325,POBC1,Percent Foreign Born,Neighborhood,x
+383,RFA_3,Donor's RFA status as of 96NK promotion date,Promotion and Gift,x
+384,RFA_4,Donor's RFA status as of 96TK promotion date,Promotion and Gift,x
+385,RFA_5,Donor's RFA status as of 96SK promotion date,Promotion and Gift,x
+386,RFA_6,Donor's RFA status as of 96LL promotion date,Promotion and Gift,x
+387,RFA_7,Donor's RFA status as of 96G1 promotion date,Promotion and Gift,x
+388,RFA_8,Donor's RFA status as of 96GK promotion date,Promotion and Gift,x
+389,RFA_9,Donor's RFA status as of 96CC promotion date,Promotion and Gift,x
+390,RFA_10,Donor's RFA status as of 96WL promotion date,Promotion and Gift,x
+391,RFA_11,Donor's RFA status as of 96X1 promotion date,Promotion and Gift,x
+392,RFA_12,Donor's RFA status as of 96XK promotion date,Promotion and Gift,x
+393,RFA_13,Donor's RFA status as of 95FS promotion date,Promotion and Gift,x
+394,RFA_14,Donor's RFA status as of 95NK promotion date,Promotion and Gift,x
+395,RFA_15,Donor's RFA status as of 95TK promotion date,Promotion and Gift,x
+396,RFA_16,Donor's RFA status as of 95LL promotion date,Promotion and Gift,x
+397,RFA_17,Donor's RFA status as of 95G1 promotion date,Promotion and Gift,x
+398,RFA_18,Donor's RFA status as of 95GK promotion date,Promotion and Gift,x
+399,RFA_19,Donor's RFA status as of 95CC promotion date,Promotion and Gift,x
+400,RFA_20,Donor's RFA status as of 95WL promotion date,Promotion and Gift,x
+401,RFA_21,Donor's RFA status as of 95X1 promotion date,Promotion and Gift,x
+402,RFA_22,Donor's RFA status as of 95XK promotion date,Promotion and Gift,x
+403,RFA_23,Donor's RFA status as of 94FS promotion date,Promotion and Gift,x
+404,RFA_24,Donor's RFA status as of 94NK promotion date,Promotion and Gift,x
+405,CARDPROM,Lifetime number of card promotions received to,Promotion and Gift,x
+406,MAXADATE,Date of the most recent promotion received (in,Promotion and Gift,x
+407,NUMPROM,Lifetime number of promotions received to date,Promotion and Gift,x
+408,CARDPM12,Number of card promotions received in the last,Promotion and Gift,x
+409,NUMPRM12,Number of promotions received in the last 12,Promotion and Gift,x
+454,RAMNTALL,Dollar amount of lifetime gifts to date,Promotion and Gift,x
+455,NGIFTALL,Number of lifetime gifts to date,Promotion and Gift,x
+456,CARDGIFT,Number of lifetime gifts to card promotions to date,Promotion and Gift,x
+457,MINRAMNT,Dollar amount of smallest gift to date,Promotion and Gift,x
+458,MINRDATE,Date associated with the smallest gift to date,Promotion and Gift,x
+459,MAXRAMNT,Dollar amount of largest gift to date,Promotion and Gift,x
+460,MAXRDATE,Date associated with the largest gift to date,Promotion and Gift,x
+461,LASTGIFT,Dollar amount of most recent gift,Promotion and Gift,x
+462,LASTDATE,Date associated with the most recent gift,Promotion and Gift,x
+463,FISTDATE,Date of first gift,Promotion and Gift,x
+464,NEXTDATE,Date of second gift,Promotion and Gift,x
+465,TIMELAG,Number of months between first and second gift,Promotion and Gift,x
+466,AVGGIFT,Average dollar amount of gifts to date,Promotion and Gift,x
+469,RFA_2R,Recency code for RFA_2,Promotion and Gift,x
+470,RFA_2F,Frequency code for RFA_2,Promotion and Gift,x
+471,RFA_2A,Donation Amount code for RFA_2,Promotion and Gift,x
+472,MDMAUD_R,Recency code for MDMAUD,Promotion and Gift,x
+473,MDMAUD_F,Frequecy code for MDMAUD,Promotion and Gift,x
+474,MDMAUD_A,Donation Amount code for MDMAUD,Promotion and Gift,x
+475,GEOCODE2,County Size Code,Characteristics,x
