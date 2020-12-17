@@ -118,11 +118,11 @@ def update_selected_feats_list(df, features_list):
     selected_feats = features_list.loc[features_list['FeaturesName'].isin(df.columns),:]
     return selected_feats
 
-def IQR_OutlierRemover(df,column,n):
+def IQR_OutlierRemover(dfn):
     #give the function the column that you want to filter and the IQR multiplicator    
     # Compute the IQR
-    q1= df[column].quantile(0.25)
-    q3= df[column].quantile(0.75)
+    q1= df.quantile(0.25)
+    q3= df.quantile(0.75)
     Iqr = q3 - q1
 
     # Compute upper and lower limit (lower_limit = Q1 -1.5*IQR | upper_limit = Q3 + 1.5*IQR)
